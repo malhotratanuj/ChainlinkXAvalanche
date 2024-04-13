@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Make the body full height of the viewport */
+  margin: 0; /* Remove default margin */
+  background: linear-gradient(135deg, #ffd300, #de38c8, #652ec7, #33135c); /* Use linear gradient with neon colors */
+}
+
+.container {
+  width: 400px; /* Adjust width as needed */
+  margin: 0 auto; /* Center horizontally */
+  text-align: center; /* Center text within container */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6); /* Adjust container background color with transparency */
+  color: #7a7a7a; /* Set font color to a suitable gray */
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 300px; /* Adjust logo size as needed */
+  margin: 0 auto; /* Center horizontally */
+  display: block;
+  margin-bottom: 20px;
+}
+
+.currency-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.currency-options div {
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc00; /* Adjust button color to neon yellow */
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #ffd300; /* Adjust hover color */
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
