@@ -10,8 +10,8 @@ module.exports = {
   },
   networks: {
     fuji: {
-      url: "https://quaint-green-cherry.avalanche-testnet.quiknode.pro/61620aa241785ec33ddaebbfe8ffe2e801732308/ext/bc/C/rpc/",
-      accounts: ['0x8c105d6f766052e234ea13f70c18819905c64b9a27daf0392580594f45842a94'],
+      url: "",
+      accounts: [''],
       chainId: 43113,
     },
   },
